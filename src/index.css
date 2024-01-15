@@ -1,12 +1,16 @@
 body {
   margin: 0;
-  font-family: "Roboto", Arial !important;
+  font-family: "Roboto", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d5d4d4;
+  background: linear-gradient(to bottom, #87CEEB, #FFD700); /* Light Blue to Sunny */
 }
 
+/* Adjusting code tag styling */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: #333; /* Dark Gray */
+  background-color: #FFD700; /* Gold */
+  padding: 2px 4px;
+  border-radius: 4px;
 }
